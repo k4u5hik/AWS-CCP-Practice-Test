@@ -18,7 +18,7 @@ if __name__ == '__main__':
         for i, line in enumerate(searchlines):
             if str(question_from_text) in line:
                 question_index = i
-                print(line)
+                print("\n" + line)
                 for j in range(question_index+1, len(searchlines)):
                     if "Correct Answer" in searchlines[j]:
                         correct_answer = searchlines[j].split(":")[1].strip()
