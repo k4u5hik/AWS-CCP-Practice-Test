@@ -1,7 +1,8 @@
 # AWS-Certified-Cloud-Practitioner---Practice-Test
 - 891 Questions and Answers
 - Calculates the score and percentage
-- Calculates time taken to answer each question and Total Time to answer all the questions.
+- Calculates time taken to answer each question and Total Time to answer all the questions
+- Save incorrect responses into a separate text file
 
 # Download, open the folder and Run the main.py file on your IDE or Terminal
 
