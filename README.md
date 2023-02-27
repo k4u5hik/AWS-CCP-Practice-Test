@@ -1,4 +1,4 @@
-# AWS-Certified-Cloud-Practitioner---Practice-Test
+# AWS-CCP-Practice-Test
 - 891 Questions and Answers
 - Calculates the score and percentage
 - Calculates time taken to answer each question and Total Time to answer all the questions
