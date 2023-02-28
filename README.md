@@ -1,5 +1,5 @@
 # DISCLAIMER:
-- I have found and corrected a few test answers from the text default file.
+- I have found and corrected a few test answers from the text default file. If you happen to find more mistakes then feel free to send a PR.
 
 # AWS-CCP-Practice-Test
 - 891 Questions and Answers
