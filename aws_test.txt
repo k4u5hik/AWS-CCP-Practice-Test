@@ -4677,8 +4677,8 @@ C.   By the number of requests made for a given Lambda function.
 D.   By the programming language that is used for the Lambda function.
 E.   By the total number of Lambda functions in an AWS account.
 
-Correct Answer: CE
-Explanation
+Correct Answer: AC
+Explanation: Lambda charges are dependent on the amount of time it takes to run the code. Lambda charges are dependent on the number of requests for your Lambda functions. The number of versions, programming language of a specific Lambda function does not contribute to the cost. There is no charge based on the number of functions in an AWS account.
 
 Explanation/Reference:
 Explanation:
@@ -7393,7 +7393,7 @@ B.   how well and how quickly an application's environment can have lost data re
 C.   how secure your application is
 D.   the built-in redundancy of an application's components
 
-Correct Answer: B
+Correct Answer: D
 Explanation
 
 Explanation/Reference:
@@ -14055,3 +14055,16 @@ Correct Answer: D
 Explanation:
 Agility is the ability to deploy resources such as computing, storage, or databases in a matter of minutes.
 Reference: For more information about the advantages of cloud computing, see Six Advantages of Cloud Computing.
+
+QUESTION 893
+Which term lengths are available when a company purchases Amazon EC2 Reserved Instances directly from AWS? (Select TWO.)
+
+A.   6 months
+B.   1 year
+C.   3 years
+D.   4 years
+
+Correct Answer: BC
+Explanation:
+Users can purchase a Reserved Instance directly from AWS for a 1-year or 3-year commitment. The 3-year commitment offers a larger discount.
+Reference: see Amazon EC2 Reserved Instances
