@@ -8703,9 +8703,9 @@ C.   AWS Direct Connect
 D.   Amazon CloudFront
 E.   AWS Lambda
 
-Correct Answer: AD
+Correct Answer: BD
 Explanation
-
+Global Accelerator is used to send user traffic through the AWS global network infrastructure. Global Accelerator improves your internet user performance by up to 60%. CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds.
 Explanation/Reference:
 Explanation:
 https://aws.amazon.com/cloudfront/faqs/
@@ -14113,3 +14113,39 @@ E.   VPC Flow Logs
 Correct Answer: AD
 Explanation: A network ACL is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. A security group acts as a virtual firewall for your instance to control inbound and outbound traffic.
 Reference: 
+
+QUESTION 898
+Which AWS service helps to automate common administrative tasks and perform one-time configuration changes at scale on Amazon EC2 instances?
+
+A.   AWS Systems Manager
+B.   AWS CloudTrail
+C.   AWS CloudFormation
+D.   AWS Config
+
+Correct Answer: A
+Explanation: You can use Systems Manager to remotely and securely manage the configuration of your managed instances. A managed instance is any EC2 instance or on-premises machine in your hybrid environment that has been configured for Systems Manager. With Systems Manager, you can automate common administrative tasks and perform one-time configuration changes at scale.
+Reference:
+
+QUESTION 899
+Which element defines an AWS Availability Zone?
+
+A.   One or more physical data centers with redundant power and network
+B.   A geographic location that is completely isolated from other AWS locations
+C.   One or more edge locations based around the world
+D.   A data center location with a single source of power and networking
+
+Correct Answer: A
+Explanation: The AWS infrastructure is built with redundancy to avoid single points of failure. Availability Zones have low-latency connections between them within an AWS Region.
+Reference:
+
+QUESTION 900
+Which AWS service installs, operates, and scales infrastructure for container cluster management?
+
+A.   Amazon Elastic Container Registry (Amazon ECR)
+B.   Amazon ElastiCache
+C.   Amazon Elastic Container Service (Amazon ECS)
+D.   Amazon Elastic Block Store (Amazon EBS)
+
+Correct Answer: C
+Explanation: Amazon ECS is a highly scalable, fast container management service that makes it easy to run, stop, and manage containers on a cluster.
+Reference:
