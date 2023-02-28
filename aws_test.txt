@@ -5209,7 +5209,7 @@ C.   Use AWS Professional Services to provide guidance and to set up an AWS Land
 D.   Select a partner from the AWS Partner Network (APN) to assist with the migration
 E.   Use Amazon Connect to create a new request for proposal (RFP) for expert assistance in migrating to the AWS Cloud.
 
-Correct Answer: BC
+Correct Answer: CD
 Explanation
 
 Explanation/Reference:
