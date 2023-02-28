@@ -4089,7 +4089,7 @@ C.   Amazon CloudFront has multiple edge locations around the world to reduce la
 D.   Amazon Comprehend allows users to build applications that can respond to user requests in many languages.
 E.   Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world, which reduces latency.
 
-Correct Answer: CD
+Correct Answer: AC
 Explanation
 
 Explanation/Reference:
@@ -5242,8 +5242,9 @@ B.   having global reach
 C.   using an economy of scale
 D.   having elasticity
 
-Correct Answer: D
-Explanation
+Correct Answer: A
+Explanation: 
+This architecture provides high availability because spanning Availability Zones removes single points of failure.
 
 Explanation/Reference:
 
@@ -5740,6 +5741,7 @@ Explanation
 
 Explanation/Reference:
 Explanation:
+Correct. There is no long-term contract required to use AWS. You pay only for the compute power, storage, and other resources that you use.
 https://d1.awsstatic.com/whitepapers/aws-whitepaper-business-value-of-aws.pdf
 
 QUESTION 347
@@ -14041,3 +14043,15 @@ Explanation
 
 Explanation/Reference:
 
+QUESTION 892
+A company is developing a new application that will be hosted in the AWS Cloud. The company needs to make changes to the application and the AWS resources that it uses. Which of the following is a characteristic of the AWS Cloud that would meet this specific requirement?
+
+A.   Elasticity
+B.   Reliability
+C.   Performance
+D.   Agility
+
+Correct Answer: D
+Explanation:
+Agility is the ability to deploy resources such as computing, storage, or databases in a matter of minutes.
+Reference: For more information about the advantages of cloud computing, see Six Advantages of Cloud Computing.
