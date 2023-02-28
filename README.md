@@ -1,3 +1,6 @@
+# DISCLAIMER:
+- I have found and corrected a few test answers from the text default file.
+
 # AWS-CCP-Practice-Test
 - 891 Questions and Answers
 - Calculates the score and percentage
