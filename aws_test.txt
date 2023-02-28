@@ -2846,19 +2846,15 @@ C.   Use Amazon Cognito to manage access
 D.   Configure a strong password policy
 E.   Enable AWS Organizations
 
-Correct Answer: BC
+Correct Answer: BD
 Explanation
 
 Explanation/Reference:
 Explanation:
 Your root account should always be protected by Multi-Factor Authentication (MFA). This additional layer of security helps protect against unauthorized logins to
 your account by requiring two factors: something you know (a password) and something you have (for example, an MFA device). AWS supports virtual and
-hardware MFA devices and U2F security keys.
-Cognito can be used as an Identity Provider (IdP), where it stores and maintains users and credentials securely for your applications, or it can be integrated with
-OpenID Connect, SAML, and other popular web identity providers like Amazon.com.
-Using Amazon Cognito, you can generate temporary access credentials for your clients to access AWS services, eliminating the need to store long-term
-credentials in client applications.
-Reference: https://aws.amazon.com/blogs/security/guidelines-for-protecting-your-aws-account-while- using-programmatic-access/
+hardware MFA devices and U2F security keys. You can set password policies to help enforce complex password requirements so that IAM user passwords cannot be easily guessed.
+Amazon Cognito is a user pool and identity provider used for managing application users. It is not involved with AWS console access.
 
 QUESTION 173
 What AWS service would be used to centrally manage AWS access across multiple accounts?
@@ -5464,9 +5460,9 @@ B.   Reliability
 C.   Cost optimization
 D.   Security
 
-Correct Answer: A
+Correct Answer: B
 Explanation
-
+The reliability pillar includes the ability of a workload to perform its intended function correctly and consistently when it is expected to do so. The deployment of Amazon RDS in multiple Availability Zones supports the goal of reliability because it reduces single points of failure.
 Explanation/Reference:
 Explanation:
 https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/
@@ -6776,9 +6772,9 @@ B.   Enable automatic patching for the instances using the Amazon RDS console.
 C.   In AWS Config, configure a rule for the instances and the required patch level.
 D.   Use AWS Systems Manager to automate database patching according to a schedule.
 
-Correct Answer: B
+Correct Answer: D
 Explanation
-
+This scenario is a primary use case of Systems Manager.
 Explanation/Reference:
 Explanation:
 https://aws.amazon.com/rds/faqs/
@@ -14068,3 +14064,52 @@ Correct Answer: BC
 Explanation:
 Users can purchase a Reserved Instance directly from AWS for a 1-year or 3-year commitment. The 3-year commitment offers a larger discount.
 Reference: see Amazon EC2 Reserved Instances
+
+QUESTION 894
+Which pillar of the AWS Well-Architected Framework has the design principle "perform operations as code"?
+
+A.   Performance efficiency
+B.   Operational excellence
+C.   Reliability
+D.   Security
+
+Correct Answer: B
+Explanation: he principle to perform operations as code is a design principle of the operational excellence pillar. By performing operations as code, you limit human error and enable consistent responses to events.
+Reference: see Design Principles
+
+QUESTION 895
+Which architecture design principle applies to the concept of rightsizing the AWS Cloud infrastructure?
+
+A.   Scale horizontally for increased workload availability.
+B.   Optimize for cost.
+C.   Make frequent, small, reversible changes.
+D.   Perform operations as code.
+
+Correct Answer: B
+Explanation: You can use metrics from the currently running workload to select the right size and type to optimize for cost. This solution is one of the best practices on the cost optimization pillar for the Well-Architected Framework.
+Reference: See Cost Optimization.
+
+QUESTION 896
+Which AWS service supports encryption by default?
+
+A.   Amazon Redshift
+B.   Amazon RDS
+C.   Amazon S3 Glacier
+D.   Amazon Elastic File System (Amazon EFS)
+
+Correct Answer: C
+Explanation: S3 Glacier enables encryption by default.
+Reference: see Amazon S3 Features.
+
+QUESTION 897
+Which AWS security mechanisms can be used to restrict or permit access to resources within a VPC? (Select TWO.)
+
+A.   Network ACL
+B.   Elastic network interface
+C.   Route table
+D.   Security group
+E.   VPC Flow Logs
+
+Correct Answer: AD
+Explanation: A network ACL is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. A security group acts as a virtual firewall for your instance to control inbound and outbound traffic.
+Reference: 
