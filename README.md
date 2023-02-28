@@ -2,7 +2,7 @@
 - I have found and corrected a few test answers from the text default file. If you happen to find more mistakes then feel free to send a PR.
 
 # AWS-CCP-Practice-Test
-- 891 Questions and Answers
+- 900 Questions and Answers
 - Calculates the score and percentage
 - Calculates time taken to answer each question and Total Time to answer all the questions
 - Save incorrect responses into a separate text file
