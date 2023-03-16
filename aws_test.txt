@@ -7821,12 +7821,12 @@ B.   Action
 C.   Resource
 D.   Statement
 
-Correct Answer: C
+Correct Answer: A
 Explanation
 
 Explanation/Reference:
 Explanation:
-https://docs.aws.amazon.com/AmazonS3/latest/dev/walkthrough1.html
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-policy-language-overview.html
 
 QUESTION 481
 Which AWS service allows for effective cost management of multiple AWS accounts?
@@ -8275,7 +8275,7 @@ B.   Using an AWS Organizations service control policy (SCP)
 C.   Using an AWS IAM account password policy
 D.   Using an AWS Security Hub managed insight
 
-Correct Answer: A
+Correct Answer: C
 Explanation
 
 Explanation/Reference:
@@ -10910,7 +10910,7 @@ C.   One bill tor multiple accounts
 D.   Installment payment options
 E.   Custom cost usage and budget creation
 
-Correct Answer: CE
+Correct Answer: AC
 Explanation
 
 Explanation/Reference:
