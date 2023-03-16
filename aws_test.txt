@@ -9966,10 +9966,10 @@ B.   AWS Certificate Manager
 C.   AWS Systems Manager
 D.   AWS Secrets Manager
 
-Correct Answer: B
+Correct Answer: A
 Explanation
 
-Explanation/Reference:
+Explanation/Reference: https://aws.amazon.com/compliance/pci-dss-level-1-faqs/
 
 
 QUESTION 622
