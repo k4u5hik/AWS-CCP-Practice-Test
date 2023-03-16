@@ -10408,7 +10408,7 @@ B.   Place the EC2 instances in two separate Availability Zones within the same 
 C.   Place one EC2 instance on premises and the other in an AWS Region Then connect them by using an AWS VPN connection.
 D.   Place both EC2 instances in a placement group for dedicated bandwidth.
 
-Correct Answer: D
+Correct Answer: B
 Explanation
 
 Explanation/Reference:
