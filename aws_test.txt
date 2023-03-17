@@ -3999,8 +3999,8 @@ C.   Users have the ability to provision resources on demand.
 D.   Users have access to free and unlimited storage.
 E.   Users have control over the physical infrastructure.
 
-Correct Answer: BC
-Explanation
+Correct Answer: AC
+Explanation: Option B is incorrect because while AWS provides a secure cloud infrastructure, customers are responsible for managing security of their own applications and data running on AWS.
 
 Explanation/Reference:
 
@@ -12350,7 +12350,7 @@ C.   Scale horizontally to increase workload availability.
 D.   Automate security best practices
 E.   Keep people away from data
 
-Correct Answer: AE
+Correct Answer: AC
 Explanation
 
 
