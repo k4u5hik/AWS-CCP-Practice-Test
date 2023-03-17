@@ -9866,8 +9866,8 @@ B.   Relational
 C.   Key-value
 D.   Graph
 
-Correct Answer: D
-Explanation
+Correct Answer: C
+Explanation: Amazon DynamoDB is a fully managed NoSQL key-value and document database that delivers single-digit millisecond performance at any scale. It is designed to provide fast and predictable performance with seamless scalability.
 
 Explanation/Reference:
 
