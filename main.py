@@ -2,9 +2,9 @@ import random
 import time
 
 def rand_num_gen(used_numbers):
-    question_num = random.randint(1, 891)
+    question_num = random.randint(1, 900)
     while question_num in used_numbers:
-        question_num = random.randint(1, 891)
+        question_num = random.randint(1, 900)
     return question_num
 
 if __name__ == '__main__':
